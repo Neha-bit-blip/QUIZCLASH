@@ -8,12 +8,12 @@ const server = http.createServer(app);
 app.use(cors());
 const io = socketIo(server, {
    cors: {
-     origin: "http://localhost:5173",
+     origin: "https://quizclash-frontend.onrender.com",
      methods: ["GET", "POST"],
    },
 });
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || https://quizclash-backend.onrender.com;
 
 const questions = [
   {
