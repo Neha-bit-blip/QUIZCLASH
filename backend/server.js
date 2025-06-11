@@ -13,7 +13,7 @@ const io = socketIo(server, {
    },
 });
 
-const PORT = process.env.PORT || https://quizclash-backend.onrender.com;
+const PORT = process.env.PORT || 5001;
 
 const questions = [
   {
