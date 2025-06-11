@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 import {ToastContainer,toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const socket = io('ws://localhost:5001');
+const socket = io('https://quizclash-backend.onrender.com');
 
 
 function App() {
